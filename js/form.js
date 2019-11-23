@@ -79,7 +79,7 @@ function validaPaciente(paciente){
     var erros = [];
 
     if(paciente.nome.length == 0){
-        erros.push("O nome não poder ser em branco.");
+        erros.push("O nome não poder ser em branco!");
     }
 
     if(!validaPeso(paciente.peso)){
